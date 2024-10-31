@@ -78,6 +78,7 @@ main{
     background-color: red;
     /*make the main take up the space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 42px;
 }
 /*footer*/
 footer{
