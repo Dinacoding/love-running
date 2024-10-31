@@ -23,17 +23,21 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header  a{
     text-decoration: none;
     color: inherit;
+    
 
 }
 h1{
     font-family: 'Oswald', sans-serif;
 }
 #menu{
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     font-size: 110%;
     list-style-type: none;
 }
@@ -42,6 +46,31 @@ h1{
 }
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+/*nav styles with dropdown toggler*/
+nav{
+    position: absolute;
+    width: 100%;
+    padding:0 1rem;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    background-color: rgb(38, 111, 221);
+    display: none;
+    top: 100%;
+}
+
+/*nav toggler*/
+
+#nav-toggler:checked~nav{
+    display: block;
+}
+
+#nav-toggler{
+    display: none;
+}
+
+.nav-toggler-label{
+    font-size: 2rem;
 }
 
 /*main*/
