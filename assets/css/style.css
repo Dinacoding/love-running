@@ -17,7 +17,12 @@ body{
 }
 /*header*/
 header{
-    background-color: blue;
+    background-color: rgb(38, 111, 221);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #000000;
 }
 h1{
     font-family: 'Oswald', sans-serif;
