@@ -120,3 +120,17 @@ footer{
         margin-top: 76px;
     }
 }
+
+/* Media queries : laptops and larger ( 992px and up)*/
+
+@media screen and (min-width:992px){
+    #menu li{
+        padding:0 1.5rem;
+
+    }
+    #menu > li:hover{
+        border-bottom: 1px solid #3a3a3a;
+
+    }
+
+}
