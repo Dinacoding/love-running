@@ -105,6 +105,30 @@ main{
     color: #ffffff;
     letter-spacing: 1px;
 }
+/* reasons styling*/
+#reasons{
+    margin:20px;
+    width: 90%;
+}
+#reasons >h2{
+    font-size: 280%;
+    text-align: center;
+    margin: 0 auto;
+}
+#benefits{
+    margin: auto;
+}
+#benefits-physical > div , #benefits-mental > div{
+line-height: 20px;
+margin: 20px;
+}
+#benefits-physical > hr, #benefits-mental > hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+#benefits-physical  p , #benefits-mental p {
+    padding: 0 20px;
+}
 /*footer*/
 
 #social-networks{
@@ -119,6 +143,7 @@ main{
     font-size:180%;
     color:#3a3a3a;
 }
+
 
 /* Media queries : tables for larger ( 768px and up)*/
 
