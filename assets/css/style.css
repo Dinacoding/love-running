@@ -75,10 +75,16 @@ nav{
 
 /*main*/
 main{
-    background-color: red;
+
     /*make the main take up the space to push footer down*/
     flex: 1 0 auto;
     margin-top: 42px;
+}
+/*hero section styles*/
+#hero{
+    height: 500px;
+    width: 100%;
+    background: url(../images/hero.png) no-repeat center center/cover;
 }
 /*footer*/
 
