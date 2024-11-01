@@ -81,8 +81,18 @@ main{
     margin-top: 42px;
 }
 /*footer*/
-footer{
-    background-color: yellow;
+
+#social-networks{
+    text-align: center;
+    padding:20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i{
+    padding: 5%;
+    font-size:180%;
+    color:#3a3a3a;
 }
 
 /* Media queries : tables for larger ( 768px and up)*/
