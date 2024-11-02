@@ -118,16 +118,21 @@ main{
 #benefits{
     margin: auto;
 }
-#benefits-physical > div , #benefits-mental > div{
+#benefits div {
 line-height: 20px;
 margin: 20px;
 }
-#benefits-physical > hr, #benefits-mental > hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
-#benefits-physical  p , #benefits-mental p {
+#benefits  p  {
     padding: 0 20px;
+}
+#benifts-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #circle-cover-background{
     background: url(../images/benefits.png) no-repeat top center/cover;
